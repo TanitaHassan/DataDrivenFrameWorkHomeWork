@@ -1,6 +1,7 @@
 package com.facebook.registrationTests;
 
 
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -37,10 +38,10 @@ public class RegistrationTest extends BaseTest {
 		rp.newPassword(newPass);
 		
 	}
+
 	@AfterMethod
-	public void closeApp() {
-		closeApp();
+	public void closeFacebook() {
+	 closeApp();
 	}
-	
 
 }
